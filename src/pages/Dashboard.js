@@ -8,7 +8,7 @@ function Dashboard(){
     
     return <div>
         <H1>Title H1</H1>
-        <H2 fontFamily="poppins" >Title H2</H2>
+        <H2>Title H2</H2>
         <Text>I try DIY text</Text>
         <Text>This is poppins texts</Text>
         <Text>{plus}</Text>

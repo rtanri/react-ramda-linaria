@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.2.0",
+    "@linaria/core": "^3.0.0-beta.4",
+    "@linaria/react": "^3.0.0-beta.7",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -11,6 +13,7 @@
     "ramda": "^0.27.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-intl": "^5.20.9",
     "react-scripts": "4.0.3",
     "styled-components": "^5.3.0",
     "web-vitals": "^1.0.1"
@@ -40,7 +43,10 @@
     ]
   },
   "devDependencies": {
+    "@linaria/babel": "^3.0.0-beta.0",
+    "@linaria/webpack-loader": "^3.0.0-beta.7",
     "craco-linaria": "^1.1.2",
+    "craco-linaria3": "^1.0.1",
     "linaria": "^2.1.0"
   },
   "babel": {
@@ -51,5 +57,4 @@
   "resolutions": {
     "styled-components": "^5"
   }
-  
 }
